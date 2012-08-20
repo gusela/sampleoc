@@ -14,6 +14,11 @@
     denominator = d;
 }
 
+-(void) setBothNumDen Z: (int) n Den: (int) d{
+    denominator = d;
+    numerator = n;
+}
+
 -(int) denominator {
     return denominator;
 }

@@ -14,6 +14,11 @@ int main( int argc, const char *argv[] ) {
     [frac print];
     printf( "\n" );
 
+    [frac setBothNumDen Z:1 Den:2];
+    printf( "The fraction is: " );
+    [frac print];
+    printf( "\n" );
+
     // free memory
     [frac release];
 
