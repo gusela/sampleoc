@@ -14,7 +14,7 @@ int main( int argc, const char *argv[] ) {
     [frac print];
     printf( "\n" );
 
-    [frac setBothNumDen Z:1 Den:2];
+    [frac setBothNumDen:1 den:2 check:8];
     printf( "The fraction is: " );
     [frac print];
     printf( "\n" );
