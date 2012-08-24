@@ -1,1 +1,5 @@
+echo "start" >> /tmp/compila.out
+date >> /tmp/compila.out
 gcc `gnustep-config --objc-flags` Fraction.m Main.m -o m -L /GNUstep/System/Library/Libraries -lobjc -lgnustep-base
+date >> /tmp/compila.out
+echo "end" >> /tmp/compila.out
