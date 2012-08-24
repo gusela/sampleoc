@@ -14,7 +14,7 @@
     denominator = d;
 }
 
--(void) setBothNumDen Z: (int) n Den: (int) d{
+-(void) setBothNumDen: (int)n den:(int)d check:(int)c {
     denominator = d;
     numerator = n;
 }
