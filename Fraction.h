@@ -8,7 +8,7 @@
 -(void) print;
 -(void) setNumerator: (int) n;
 -(void) setDenominator: (int) d;
--(void) setBothNumDen Z:(int) n Den:(int) d;
+-(void) setBothNumDen:(int)n den:(int)d check:(int)c;
 -(int) numerator;
 -(int) denominator;
 @end
